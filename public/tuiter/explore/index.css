@@ -1,0 +1,175 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-search-tuiter {
+    color: white;
+    background-color: #383737;
+    border-radius: 50px;
+    height: 20px;
+    width: 90%;
+    float: left;
+}
+
+.wd-settings-icon {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.wd-for-you-hyperlink {
+    width: 15%;
+    float: left;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-trending-hyperlink {
+    color: white;
+    width: 10%;
+    float: left;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-covid-hyperlink {
+    color: white;
+    width: 12%;
+    float: left;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-news-hyperlink {
+    color: white;
+    width: 8%;
+    float: left;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-sports-hyperlink {
+    color: white;
+    width: 8%;
+    float: left;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-entertainment-hyperlink {
+    color: white;
+    width: 10%;
+    float: left;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-selected-link {
+    color: #1da1f2;
+    text-decoration: none;
+    padding: 16px;
+    border-bottom: 1px solid #1da1f2;
+    width: 10%;
+}
+
+.wd-unselected-link {
+    color: #6e767d;
+    text-decoration: none;
+}
+
+.wd-thick-border {
+    border-top: 20px solid #383737;
+    width: 100%;
+    top: 90px;
+    margin: 0;
+    border-bottom-style: unset;
+    border-left-style: unset;
+    border-right-style: unset;
+}
+
+.wd-tuit-div {
+    border: 2px solid #383737;
+    height: 120px;
+}
+
+.wd-tuit-data1 {
+    color: #6e767d;
+    font-size: 13px;
+    position: relative;
+    left: 12px;
+    top: 12px;
+}
+
+.wd-tuit-data2 {
+    color: #6e767d;
+    font-size: 13px;
+    position: relative;
+    left: 24px;
+    top: 12px;
+}
+
+.wd-dots-icon {
+    width: 20px;
+    height: auto;
+    float: right;
+    positive: relative;
+    top: 12px;
+}
+
+.wd-tuit-bold {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    position: relative;
+    left: 12px;
+    top: 12px;
+}
+
+.wd-verified-user {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    left: 8px;
+    top: 12px;
+}
+
+.wd-verified-icon1 {
+    width: 12px;
+    height: auto;
+    float: left;
+    position: relative;
+    left: 12px;
+    top: 12px;
+}
+
+.wd-verified-icon2 {
+    width: 12px;
+    height: auto;
+    float: left;
+    position: relative;
+    left: 116px;
+    top: 14px;
+}
+
+.wd-verified-icon2-1 {
+    width: 12px;
+    height: auto;
+    float: left;
+    position: relative;
+    left: 50px;
+    top: 14px;
+}
+
+.wd-tweet-pic {
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: relative;
+    right: 16px;
+    bottom: 10px;
+    border-radius: 25px;
+}
+
