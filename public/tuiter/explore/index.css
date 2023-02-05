@@ -1,6 +1,7 @@
 .wd-explore-content {
     margin-left: 16px;
     margin-right: 16px;
+    display: block;
 }
 
 .wd-search-tuiter {
@@ -10,18 +11,20 @@
     height: 20px;
     width: 90%;
     float: left;
+    display: block;
 }
 
 .wd-settings-icon {
     width: 20px;
     height: auto;
-    position: absolute;
-    top: 12px;
-    right: 12px;
+    float: right;
+    top: 6px;
 }
 
 .wd-hyperlinks-section {
     border-bottom: 10px #383737;
+    display: block;
+    float: left;
 }
 
 .wd-for-you-hyperlink {
