@@ -1,0 +1,92 @@
+.wd-bookmarks-header {
+    border: 1px solid #383737;
+    height: 60px;
+}
+
+.wd-bookmarks-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 16px;
+    top: 12px;
+}
+
+.wd-handle {
+    color: #6e767d;
+    font-size: 13px;
+    position: relative;
+    left: 16px;
+    top: 8px;
+}
+
+.wd-bookmarks-content {
+    border: 1px solid #383737;
+    height: 600px;
+}
+
+.wd-author-container {
+    position: relative;
+    left: 16px;
+    top: 12px;
+    float: left;
+    padding-right: 12px;
+    width: 10%;
+}
+
+.wd-avatar-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.wd-content-container {
+    float: left;
+    width: 70%;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.wd-bookmarks-info {
+    position: relative;
+    padding-left: 24px;
+    bottom: 24px;
+}
+
+.wd-author-name {
+    color: white;
+    font-size: 15px;
+    top: 24px;
+    left: 24px;
+}
+
+.wd-handle-and-date {
+    color: #6e767d;
+    font-size: 13px;
+}
+
+.wd-dots-icon-bookmarks {
+    width: 20px;
+    height: auto;
+}
+
+.wd-bookmarks-p {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+
+.wd-three-dots-container {
+    width: 10%;
+    float: right;
+}
+
+.wd-picture-container {
+
+}
+
+.wd-picture {
+
+}
