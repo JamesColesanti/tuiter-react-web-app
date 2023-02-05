@@ -1,6 +1,7 @@
 .wd-bookmarks-header {
     border: 1px solid #383737;
     height: 60px;
+    width: 600px;
 }
 
 .wd-bookmarks-text {
@@ -23,6 +24,7 @@
 .wd-bookmarks-content {
     border: 1px solid #383737;
     height: 600px;
+    width: 600px;
 }
 
 .wd-author-container {
@@ -42,7 +44,7 @@
 
 .wd-content-container {
     float: left;
-    width: 70%;
+    width: 504px;
     margin-top: 12px;
     margin-left: 12px;
 }
@@ -79,14 +81,81 @@
 }
 
 .wd-three-dots-container {
-    width: 10%;
     float: right;
 }
 
 .wd-picture-container {
-
+    height: 360px;
+    width: 504px;
+    border: 1px solid #383737;
+    border-radius: 25px;
 }
 
 .wd-picture {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
 
+.wd-content-under-pic {
+    margin: 12px;
+}
+
+.wd-under-pic-title {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wd-under-pic-content {
+    color: #6e767d;
+    font-size: 15px;
+}
+
+.wd-bottom-icons {
+    margin-top: 12px;
+}
+
+.wd-bottom-icons-gray {
+    color: #6e767d;
+    font-size: 12px;
+    float: left;
+    margin-right: 90px;
+    text-decoration: unset;
+}
+
+.wd-icon-pic {
+    width: 12px;
+    height: 12px;
+    margin-right: 12px;
+}
+
+.wd-link-pic {
+    width: 12px;
+    height: 12px;
+    margin-right: 2px;
+}
+
+.wd-bottom-icons-red {
+    color: red;
+    font-size: 12px;
+    float: left;
+    margin-right: 100px;
+    text-decoration: unset;
+}
+
+.wd-like-pic {
+    width: 12px;
+    height: 12px;
+    margin-right: 12px;
+}
+
+.wd-last-icon {
+    float: left;
+}
+
+.wd-link-container {
+    text-decoration: unset;
+    color: #6e767d;
 }
