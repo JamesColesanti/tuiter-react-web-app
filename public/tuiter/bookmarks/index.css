@@ -5,8 +5,6 @@
 }
 
 .wd-bookmarks-text {
-    color: white;
-    font-weight: bold;
     font-size: 20px;
     position: relative;
     left: 16px;
@@ -14,7 +12,6 @@
 }
 
 .wd-handle {
-    color: #6e767d;
     font-size: 13px;
     position: relative;
     left: 16px;
@@ -63,13 +60,14 @@
 }
 
 .wd-handle-and-date {
-    color: #6e767d;
     font-size: 13px;
 }
 
 .wd-dots-icon-bookmarks {
     width: 20px;
     height: auto;
+    position: relative;
+    bottom: 6px;
 }
 
 .wd-bookmarks-p {
@@ -103,8 +101,6 @@
 }
 
 .wd-under-pic-title {
-    color: white;
-    font-weight: bold;
     font-size: 15px;
 }
 
@@ -117,8 +113,7 @@
     margin-top: 12px;
 }
 
-.wd-bottom-icons-gray {
-    color: #6e767d;
+.wd-each-icon {
     font-size: 12px;
     float: left;
     margin-right: 90px;

@@ -7,14 +7,14 @@
     height: auto;
     float: right;
     right: 12px;
-    bottom: 12px;
     position: relative;
 }
 
-.wd-dots-icon2 {
-    width: 20px;
-    height: auto;
-    float: right;
-    position: relative;
-    top: 12px;
+.wd-gray-text {
+    color: #6e767d;
+}
+
+.wd-bold-white-text {
+    color: white;
+    font-weight: bold;
 }
