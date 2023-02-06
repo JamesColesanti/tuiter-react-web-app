@@ -1,17 +1,28 @@
 .wd-explore-content {
     margin-left: 16px;
     margin-right: 16px;
-    display: block;
 }
 
-.wd-search-tuiter {
+.wd-search-tuiter-pill {
+    background-color: #383737;
+    border-radius: 50px;
+    height: 30px;
+    width: 95%;
+    float: left;
+}
+
+.wd-search-tuiter-input {
     color: white;
     background-color: #383737;
     border-radius: 50px;
-    height: 20px;
+    height: 25px;
     width: 90%;
     float: left;
-    display: block;
+    border: unset;
+    position: relative;
+    left: 12px;
+    top: 2px;
+    outline: unset;
 }
 
 .wd-settings-icon {
@@ -19,6 +30,16 @@
     height: auto;
     float: right;
     top: 6px;
+    position: relative;
+}
+
+.wd-search-icon {
+    width: 20px;
+    height: auto;
+    float: left;
+    top: 6px;
+    left: 8px;
+    position: relative;
 }
 
 .wd-hyperlinks-section {

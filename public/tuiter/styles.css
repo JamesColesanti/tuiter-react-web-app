@@ -6,14 +6,15 @@
     width: 20px;
     height: auto;
     float: right;
-    positive: relative;
-    top: 12px;
+    right: 12px;
+    bottom: 12px;
+    position: relative;
 }
 
 .wd-dots-icon2 {
     width: 20px;
     height: auto;
     float: right;
-    positive: relative;
+    position: relative;
     top: 12px;
 }
