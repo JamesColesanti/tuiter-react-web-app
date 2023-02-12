@@ -1,194 +1,179 @@
-.wd-explore-content {
-    margin-left: 16px;
-    margin-right: 16px;
+.wd-left-col-icon {
+    padding-right: 4px;
 }
 
-.wd-search-tuiter-pill {
-    background-color: #383737;
-    border-radius: 50px;
-    height: 30px;
-    width: 95%;
-    float: left;
+.wd-search-section {
+    height: 50px;
 }
 
-.wd-search-tuiter-input {
-    color: white;
-    background-color: #383737;
+.wd-search-tuiter-input-a4 {
+    color: black;
+    background-color: white;
     border-radius: 50px;
     height: 25px;
-    width: 90%;
-    float: left;
+    width: 300px;
     border: unset;
-    position: relative;
-    left: 12px;
-    top: 2px;
     outline: unset;
 }
 
-.wd-settings-icon {
-    width: 20px;
-    height: auto;
-    float: right;
-    top: 6px;
-    position: relative;
-}
-
-.wd-search-icon {
-    width: 20px;
-    height: auto;
-    float: left;
-    top: 6px;
-    left: 8px;
-    position: relative;
-}
-
-.wd-hyperlinks-section {
-    border-bottom: 10px #383737;
+.wd-search-tuiter-pill-a4 {
+    background-color: white;
+    border: 1px #585757 solid;
+    border-radius: 50px;
+    height: 30px;
+    width: 90%;
     display: block;
-    float: left;
 }
 
-.wd-for-you-hyperlink {
-    float: left;
-    font-size: 15px;
-    padding: 16px;
-    width: 10%;
-}
-
-.wd-trending-hyperlink {
-    float: left;
-    font-size: 15px;
-    padding: 16px;
-}
-
-.wd-covid-hyperlink {
-    float: left;
-    font-size: 15px;
-    padding: 16px;
-}
-
-.wd-news-hyperlink {
-    float: left;
-    font-size: 15px;
-    padding: 16px;
-}
-
-.wd-sports-hyperlink {
-    float: left;
-    font-size: 15px;
-    padding: 16px;
-}
-
-.wd-entertainment-hyperlink {
-    color: white;
-    float: left;
-    font-size: 15px;
-    padding: 16px;
-}
-
-.wd-selected-link {
-    color: #1da1f2;
-    text-decoration: none;
-    padding: 16px;
-    border-bottom: 1px solid #1da1f2;
-}
-
-.wd-unselected-link {
-    color: #6e767d;
-    text-decoration: none;
-}
-
-.wd-thick-border {
-    border-top: 20px solid #2a2121;
-    width: 100%;
-    top: 90px;
-    margin: 0;
-    border-bottom-style: unset;
-    border-left-style: unset;
-    border-right-style: unset;
-}
-
-.wd-border {
-    width: 100%;
-    top: 90px;
-    margin: 0;
-    background: #2d2a2a;
-    border: 1px #383737;
-    height: 20px;
-
-}
-
-.wd-tuit-div {
-    border: 2px solid #383737;
-    height: 120px;
-}
-
-.wd-tuit-data1 {
-    font-size: 13px;
-    position: relative;
-    left: 12px;
-    top: 12px;
-}
-
-.wd-tuit-data2 {
-    font-size: 13px;
-    position: relative;
-    left: 24px;
-    top: 12px;
-}
-
-.wd-tuit-bold {
-    font-size: 13px;
-    position: relative;
-    left: 12px;
-    top: 12px;
-}
-
-.wd-verified-user {
-    font-size: 12px;
-    position: relative;
-    left: 8px;
-    top: 12px;
-}
-
-.wd-verified-user-image {
-    width: 12px;
+.wd-settings-icon-a4 {
+    width: 20px;
     height: auto;
-    float: left;
-    position: relative;
-    left: 12px;
-    top: 12px;
-}
-
-.wd-verified-icon1 {
-    width: 12px;
-    height: auto;
-    float: left;
-    position: relative;
-    left: 116px;
-    top: 14px;
-}
-
-.wd-verified-icon2 {
-    width: 12px;
-    height: auto;
-    float: left;
-    position: relative;
-    left: 50px;
-    top: 14px;
-}
-
-.wd-tuit-pic {
-    width: 100px;
-    height: 100px;
     float: right;
+    top: 16px;
     position: relative;
-    right: 16px;
-    bottom: 10px;
+}
+
+.wd-gray-text-a4 {
+    color: #6e767d;
+    font-size: 12px;
+}
+
+.wd-mid-col-padding {
+    float: left;
+}
+
+.wd-posts-section-a4 {
+    float: left;
+}
+
+.wd-picture-container {
+    margin-top: 12px;
+}
+
+.wd-picture {
+    width: 100%;
+}
+
+.wd-image-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.wd-posts-under-image {
+    position: relative;
+    bottom: 30px;
+}
+
+.wd-tuit-basic-div-a4 {
+    border: 1px solid #585757 ;
+    height: 100px;
+}
+
+.wd-tuit-basic-data {
+    font-size: 13px;
+    position: relative;
+    left: 12px;
+    top: 12px;
+    height: 75px;
+}
+
+.wd-black-bold-text {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.wd-black-bold-text-follow {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.wd-picture-container-a4 {
+    position: relative;
+    right: 10px;
+    bottom: 60px;
+    float: right;
+}
+
+.wd-picture-container-js {
+    position: relative;
+    right: 10px;
+    bottom: 45px;
+    float: right;
+}
+
+.wd-picture-container-jquery {
+    position: relative;
+    right: 10px;
+    bottom: 40px;
+    float: right;
+}
+
+.wd-picture-container-node {
+    position: relative;
+    right: 10px;
+    bottom: 50px;
+    float: right;
+}
+
+.wd-basic-tuit-picture-a4 {
+    width: 75px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.wd-basic-tuit-picture-jquery {
+    width: 70px;
+    height: auto;
+}
+
+.wd-basic-tuit-about {
+    padding-right: 125px;
+}
+
+.btn-primary.override-bs {
+    background-color: #a90dfd;
     border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    width: 80px;
+    height: 40px;
 }
 
-.wd-posts-section {
-    bottom: 20px;
+.wd-follow-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
 
+.wd-follow-image-nasa {
+    width: auto;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-follow-container {
+    height: 50px;
+}
+
+.wd-remove-decor {
+    color: black;
+    text-decoration: none;
+}
+
+.wd-remove-decor:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-stack.small {
+    font-size: 0.5em;
+}
