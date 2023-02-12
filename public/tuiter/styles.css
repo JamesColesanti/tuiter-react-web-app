@@ -14,6 +14,10 @@
     color: #6e767d;
 }
 
+.wd-black-text {
+    color: black;
+}
+
 .wd-bold-white-text {
     color: white;
     font-weight: bold;

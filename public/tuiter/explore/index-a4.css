@@ -1,0 +1,179 @@
+.wd-left-col-icon {
+    padding-right: 4px;
+}
+
+.wd-search-section {
+    height: 50px;
+}
+
+.wd-search-tuiter-input-a4 {
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    height: 25px;
+    width: 300px;
+    border: unset;
+    outline: unset;
+}
+
+.wd-search-tuiter-pill-a4 {
+    background-color: white;
+    border: 1px #585757 solid;
+    border-radius: 50px;
+    height: 30px;
+    width: 90%;
+    display: block;
+}
+
+.wd-settings-icon-a4 {
+    width: 20px;
+    height: auto;
+    float: right;
+    top: 16px;
+    position: relative;
+}
+
+.wd-gray-text-a4 {
+    color: #6e767d;
+    font-size: 12px;
+}
+
+.wd-mid-col-padding {
+    float: left;
+}
+
+.wd-posts-section-a4 {
+    float: left;
+}
+
+.wd-picture-container {
+    margin-top: 12px;
+}
+
+.wd-picture {
+    width: 100%;
+}
+
+.wd-image-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.wd-posts-under-image {
+    position: relative;
+    bottom: 30px;
+}
+
+.wd-tuit-basic-div-a4 {
+    border: 1px solid #585757 ;
+    height: 100px;
+}
+
+.wd-tuit-basic-data {
+    font-size: 13px;
+    position: relative;
+    left: 12px;
+    top: 12px;
+    height: 75px;
+}
+
+.wd-black-bold-text {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.wd-black-bold-text-follow {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.wd-picture-container-a4 {
+    position: relative;
+    right: 10px;
+    bottom: 60px;
+    float: right;
+}
+
+.wd-picture-container-js {
+    position: relative;
+    right: 10px;
+    bottom: 45px;
+    float: right;
+}
+
+.wd-picture-container-jquery {
+    position: relative;
+    right: 10px;
+    bottom: 40px;
+    float: right;
+}
+
+.wd-picture-container-node {
+    position: relative;
+    right: 10px;
+    bottom: 50px;
+    float: right;
+}
+
+.wd-basic-tuit-picture-a4 {
+    width: 75px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.wd-basic-tuit-picture-jquery {
+    width: 70px;
+    height: auto;
+}
+
+.wd-basic-tuit-about {
+    padding-right: 125px;
+}
+
+.btn-primary.override-bs {
+    background-color: #a90dfd;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    width: 80px;
+    height: 40px;
+}
+
+.wd-follow-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.wd-follow-image-nasa {
+    width: auto;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-follow-container {
+    height: 50px;
+}
+
+.wd-remove-decor {
+    color: black;
+    text-decoration: none;
+}
+
+.wd-remove-decor:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-stack.small {
+    font-size: 0.5em;
+}
