@@ -36,7 +36,6 @@
 
 .wd-gray-text-a4 {
     color: #6e767d;
-    font-size: 12px;
 }
 
 .wd-mid-col-padding {
@@ -58,7 +57,7 @@
 .wd-image-text {
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     bottom: 30px;
 }
@@ -70,7 +69,8 @@
 
 .wd-tuit-basic-div-a4 {
     border: 1px solid #585757 ;
-    height: 100px;
+    border-top: unset;
+    height: 120px;
 }
 
 .wd-tuit-basic-data {
@@ -79,12 +79,6 @@
     left: 12px;
     top: 12px;
     height: 75px;
-}
-
-.wd-black-bold-text {
-    color: black;
-    font-weight: bold;
-    font-size: 12px;
 }
 
 .wd-black-bold-text-follow {
@@ -104,6 +98,10 @@
 
 .wd-font-size-14 {
     font-size: 14px;
+}
+
+.wd-font-size-12 {
+    font-size: 12px;
 }
 
 .wd-picture-container-a4 {
@@ -135,13 +133,13 @@
 }
 
 .wd-basic-tuit-picture-a4 {
-    width: 75px;
+    width: 90px;
     height: auto;
     border-radius: 20px;
 }
 
 .wd-basic-tuit-picture-jquery {
-    width: 70px;
+    width: 80px;
     height: auto;
 }
 
