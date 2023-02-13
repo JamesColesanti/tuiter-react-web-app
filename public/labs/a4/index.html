@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+  <!-- 3.1 Containers -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
         rel="stylesheet"/>
   <link href="index.css" rel="stylesheet"/>
@@ -12,10 +13,12 @@
 
 <body>
 
+<!-- 3.2.1 Containers -->
 <div class="container">
   <h1>Bootstrap</h1>
   <p>Welcome to Bootstrap!</p>
 
+  <!-- 3.2.2 Grid system -->
   <h2><a
       href="https://getbootstrap.com/docs/5.1/layout/grid/">Grid system</a></h2>
   <div class="row">
@@ -37,6 +40,7 @@
     <div class="col-2 bg-info">
       <h3>Sidebar</h3></div></div>
 
+  <!-- 3.2.3 Responsive grids -->
   <h2>Responsive grid system</h2>
   <div class="row">
     <div class="col-12 col-md-6
@@ -97,6 +101,7 @@
       <h4>12</h4></div>
   </div>
 
+  <!-- 3.2.4 Hiding and showing responsive content -->
   <h2>Hiding and showing responsive content</h2>
   <div class="d-block d-sm-none fa-2x">XS</div>
   <div class="d-none d-sm-block d-md-none fa-2x">S</div>
@@ -105,6 +110,7 @@
   <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
   <div class="d-none d-xxl-block fa-2x">XXL</div>
 
+  <!-- 3.3.1 Styling tables -->
   <h2>Tables</h2>
   <table class="table">
     <thead>
@@ -120,6 +126,7 @@
     </tfoot>
   </table>
 
+  <!-- 3.3.2 Making tables responsive -->
   <h2>
     <a href="https://getbootstrap.com/docs/5.1/content/tables/#responsive-tables">
       Responsive tables</a></h2>
@@ -141,6 +148,7 @@
     </table>
   </div>
 
+  <!-- 3.3.3 Styling lists -->
   <h2>
     <a href="https://getbootstrap.com/docs/5.1/components/list-group/">
       Favorite movies</a>
@@ -153,6 +161,7 @@
     <li class="list-group-item disabled">Star Wars</li>
   </ul>
 
+  <!-- 3.3.4 Styling list of hyperlinks -->
   <h3>
     <a
         href="https://getbootstrap.com/docs/5.1/components/lis
@@ -183,6 +192,7 @@
       Game</a>
   </div>
 
+  <!-- 3.4.1 Basic form styling -->
   <h2>
     <a
         href="https://getbootstrap.com/docs/5.1/
@@ -208,6 +218,7 @@
               rows="3"></textarea>
   </div>
 
+  <!-- 3.4.2 Styling dropdowns -->
   <h3>
     <a
         href="https://getbootstrap.com/docs/5.1/forms/selec
@@ -221,6 +232,7 @@
     <option value="3">Three</option>
   </select>
 
+  <!-- 3.4.3 Styling switches -->
   <h3>
     <a
         href="https://getbootstrap.com/docs/5.1/forms/check
@@ -261,6 +273,7 @@
       Disabled checked switch checkbox input</label>
   </div>
 
+  <!-- 3.4.4 Styling range and sliders -->
   <h3>
     <a
         href="https://getbootstrap.com/docs/
@@ -278,6 +291,7 @@
          step="0.5"
          id="range1"/>
 
+  <!-- 3.4.5 Styling addons -->
   <h3><a
       href="https://getbootstrap.com/docs/5.1/fo
   rms/input-group/">Addons</a></h3>
@@ -294,6 +308,7 @@
   0.00</span>
   </div>
 
+  <!-- 3.4.6 Making forms responsive -->
   <h3><a
       href="https://getbootstrap.com/docs/5.1/for
   ms/layout/#horizontal-form">Responsive
@@ -393,6 +408,7 @@
       in</button>
   </form>
 
+  <!-- 3.4.7 Overriding Bootstrap style -->
   <h3>Overriding Bootstrap style</h3>
   <button class="btn btn-primary">
     Regular Bootstrap Button
@@ -402,6 +418,7 @@
     Overriden Button
   </button>
 
+  <!-- 3.5.1 Navigating with tabs -->
   <h2><a href="https://getbootstrap.com/docs/5.1/components/navs-tabs/">Tabs</a></h2>
   <ul class="nav nav-tabs">
     <li class="nav-item">
@@ -418,6 +435,7 @@
     </li>
   </ul>
 
+  <!-- 3.5.2 Navigating with pills -->
   <h3>
     <a href="https://getbootstrap.com/docs/5.1/components/navs-tabs/#pills">
       Pills
@@ -438,6 +456,7 @@
     </li>
   </ul>
 
+  <!-- 3.5.3 Navigating with cards -->
   <h2>
     <a href="https://getbootstrap.com/docs/5.1/components/card/">
       Cards
@@ -455,6 +474,7 @@
     </div>
   </div>
 
+  <!-- 3.6.1 Using simple icons -->
   <h2>Simple icons</h2>
   <i class="fa fa-cog"></i>
   <i class="fa fa-heart"></i>
@@ -465,6 +485,7 @@
   <i class="fa fa-calendar"></i>
   <i class="fa fa-smile"></i>
 
+  <!-- 3.6.2 Resizing icons -->
   <h2>Resizing icons</h2>
   <i class="fa fa-cog fa-2x"></i>
   <i class="fa fa-heart fa-2x"></i>
@@ -475,6 +496,7 @@
   <i class="fa fa-calendar" style="font-size: 5em"></i>
   <i class="fa fa-smile" style="font-size: 3.5em"></i>
 
+  <!-- 3.6.3 Coloring icons -->
   <h2>Coloring icons</h2>
   <i class="fa fa-cog fa-2x" style="color: tomato"></i>
   <i class="fa fa-heart fa-2x" style="color: tomato"></i>
@@ -483,11 +505,13 @@
   <i class="fa fa-image fa-3x" style="color: rgb(234,123,12)"></i>
   <i class="fa fa-chart-bar fa-4x" style="color: rgb(123,234,123)"></i>
 
+  <!-- 3.6.4 Brand icons -->
   <h2>Brand icons</h2>
   <i class="fab fa-twitter fa-2x"></i><br/>
   <i class="fab fa-facebook fa-2x"></i><br/>
   <i class="fab fa-apple fa-2x"></i><br/>
 
+  <!-- 3.6.5 Stacking icons -->
   <h2>Stacking icons</h2>
   <span class="fa-stack fa-2x">
     <i class="fas fa-square fa-stack-2x"></i>
@@ -502,6 +526,7 @@
     <i class="fas fa-ban fa-stack-2x" style="color:Tomato"></i>
   </span><br/>
 
+  <!-- 3.6.6 Rotating icons -->
   <h2>Rotating icons</h2>
   <div class="fa-4x">
     <i class="fas fa-snowboarding"></i>
@@ -513,6 +538,7 @@
     <i class="fas fa-snowboarding fa-flip-both"></i><br/>
   </div>
 
+  <!-- 3.6.7 Animating icons -->
   <h2>Animating icons</h2>
   <div class="fa-3x">
     <i class="fas fa-spinner fa-spin"></i>
