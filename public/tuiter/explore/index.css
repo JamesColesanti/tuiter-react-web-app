@@ -126,6 +126,16 @@
     text-decoration: none;
 }
 
+.wd-remove-decor-selected {
+    color: white;
+    text-decoration: none;
+}
+
+.wd-remove-decor-selected:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .fa-stack.small {
     font-size: 0.5em;
 }
