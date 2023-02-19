@@ -1,5 +1,12 @@
 // const TodoItem = (todo) => {
 //     return(`
+//     <li>${todo}</li>
+//     `);
+// }
+// export default TodoItem;
+
+// const TodoItem = (todo) => {
+//     return(`
 //     <li>
 //         ${todo.title}
 //         (${todo.status})

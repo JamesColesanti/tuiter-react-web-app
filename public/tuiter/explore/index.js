@@ -16,7 +16,7 @@ function exploreComponent() {
                 ${ExploreComponent()}
             </div>
             <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-                <!--<h3>WhoToFollowList </h3>-->
+                <!--<h3>WhoToFollowList</h3>-->
                 ${WhoToFollowListItemTest()}
             </div>
         </div>

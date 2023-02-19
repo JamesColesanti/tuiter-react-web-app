@@ -12,10 +12,10 @@ const ExploreComponent = () => {
                         translate-middle-y">
                         <div class="position-absolute top-50 start-0
                             translate-middle-y ps-2">
-                            <a href="#" class="wd-remove-decor">
+                            <a href="#" class="wd-remove-decor ps-1">
                                 <i class="fas fa-solid fa-search"></i>
                             </a>
-                            <input class="wd-search-tuiter-input"
+                            <input class="wd-search-tuiter-input ps-3"
                             placeholder="Search Tuiter"/>
                         </div>
                         </div>
