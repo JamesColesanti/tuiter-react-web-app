@@ -1,6 +1,6 @@
 const WhoToFollowListItem = (who) => {
     return(`
-        <li class="list-group-item">
+        <a class="list-group-item" href='#'>
             <div>
                 <div class="position-relative top-50 start-0 translate-middle-y">
                     <span class="float-start">
@@ -19,7 +19,7 @@ const WhoToFollowListItem = (who) => {
                     <button class="btn btn-primary override-bs">Follow</button>
                 </div>
             </div>
-        </li>
+        </a>
     `);
 }
 export default WhoToFollowListItem;

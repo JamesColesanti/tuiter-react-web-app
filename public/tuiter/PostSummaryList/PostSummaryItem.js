@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 const PostSummaryItem = (post) => {
     return(`
-        <li class="wd-tuit-basic-div list-group-item">
+        <a class="wd-tuit-basic-div list-group-item" href='#'>
             <div class="position-relative top-0 start-0">
                 <div class="wd-gray-text wd-font-size-14">
                 ${post.topic}
@@ -21,7 +21,7 @@ const PostSummaryItem = (post) => {
                 <img class="wd-basic-tuit-picture"  
                 src="${post.image}"/>
             </div>
-        </li>
+        </a>
     `);
 }
 export default PostSummaryItem;
