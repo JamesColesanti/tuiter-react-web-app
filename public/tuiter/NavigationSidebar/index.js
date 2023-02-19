@@ -7,7 +7,7 @@ const NavigationSidebar = () => {
                 <i class="fas fa-solid fa-home"></i>
                 <span class="d-none d-xl-inline-block">Home</span>
             </a>
-            <a class="list-group-item" href="#">
+            <a class="list-group-item active" href="#">
                 <i class="fas fa-solid fa-hashtag"></i>
                 <span class="d-none d-xl-inline-block">Explore</span>
             </a>

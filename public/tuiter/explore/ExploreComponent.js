@@ -10,14 +10,14 @@ const ExploreComponent = () => {
                     <span class="wd-search-tuiter-pill">
                         <div class="position-relative top-50 start-0
                         translate-middle-y">
-                        <div class="position-absolute top-50 start-0
-                            translate-middle-y ps-2">
-                            <a href="#" class="wd-remove-decor ps-1">
-                                <i class="fas fa-solid fa-search"></i>
-                            </a>
-                            <input class="wd-search-tuiter-input ps-3"
+                            <div class="position-absolute top-50 start-0
+                                translate-middle-y ps-2">
+                                <a href="#" class="wd-remove-decor ps-2">
+                                    <i class="fas fa-solid fa-search"></i>
+                                </a>
+                            </div>
+                            <input class="wd-search-tuiter-input ps-5"
                             placeholder="Search Tuiter"/>
-                        </div>
                         </div>
                     </span>
                     <div class="position-absolute top-50 end-0 translate-middle-y
