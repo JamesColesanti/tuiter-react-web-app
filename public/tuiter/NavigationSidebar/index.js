@@ -28,10 +28,7 @@ const NavigationSidebar = () => {
                 <span class="d-none d-xl-inline-block">Profile</span>
             </a>
             <a class="list-group-item" href="#">
-                <span class="fa-stack small">
-                    <i class="fas fa-solid fa-circle fa-stack-2x"></i>
-                    <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
-                </span>
+                <i class="fas fa-solid fa-circle"></i>
                 <span class="d-none d-xl-inline-block">More</span>
             </a>
         </div>
