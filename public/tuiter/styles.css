@@ -1,0 +1,20 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-dots-icon {
+    width: 20px;
+    height: auto;
+    float: right;
+    right: 12px;
+    position: relative;
+}
+
+.wd-gray-text {
+    color: #6e767d;
+}
+
+.wd-bold-white-text {
+    color: white;
+    font-weight: bold;
+}
