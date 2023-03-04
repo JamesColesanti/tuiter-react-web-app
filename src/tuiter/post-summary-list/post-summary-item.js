@@ -15,14 +15,19 @@ const PostSummaryItem = (
     return(
         <li className="list-group-item">
             <div className="row">
-                <div className="col-10">
-                    <div>{post.userName} . {post.time}</div>
-                    <div className="fw-bolder">{post.topic}</div>
-                    <div>{post.title}</div>
+            <div class="position-relative top-0 start-0">
+                <div className="wd-font-size-14"> {post.userName} . {post.time}</div>
+                <div className="fw-bolder wd-font-size-14">
+                    {post.topic}
+                    <span className="ps-1">
+                        <i class="bi bi-patch-check-fill"></i>
+                    </span>
                 </div>
-                <div className="col-2">
-                    <img width={70} className="float-end rounded-3" src={`/images/${post.image}`}/>
-                </div>
+                <div className="pe-5 me-5 wd-font-size-14">{post.title}</div>
+            </div>
+            <div class="position-absolute top-50 end-0 translate-middle-y pe-3">
+                <img width={70} className="float-end rounded-3" src={`/images/${post.image}`}/>
+            </div>
             </div>
         </li>
     );
