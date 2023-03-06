@@ -25,7 +25,7 @@ const ExploreComponent = () => {
                     </span>
                     <div class="position-absolute top-50 end-0 translate-middle-y
                         pe-1 pb-2">
-                        <a href="../../../public/tuiter/explore/explore-settings.html">
+                        <a href="#">
                             <i className="text-primary float-end bi
                             bi-gear-fill fs-2 position-relative"></i>
                         </a>
