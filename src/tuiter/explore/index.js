@@ -6,29 +6,49 @@ import "./index.css";
 const ExploreComponent = () => {
     return(
     <>
-        <div className="row">
-            <div className="col-11 position-relative">
-                <input placeholder="Search Tuiter"
-                className="form-control rounded-pill ps-5"/>
-                <i className="bi bi-search position-absolute
-                wd-nudge-up"></i>
-            </div>
-            <div className="col-1">
-                <a href="explore-settings.html">
-                    <i className="wd-bottom-4 text-primary float-end bi
-                    bi-gear-fill fs-2 position-relative"></i>
-                </a>
+        <div class="row">
+            <div class="wd-search-section">
+                <div class="position-relative top-50 start-0 translate-middle-y
+                pb-2">
+                    <span class="wd-search-tuiter-pill">
+                        <div class="position-relative top-50 start-0
+                        translate-middle-y">
+                            <div class="position-absolute top-50 start-0
+                                translate-middle-y ps-2">
+                                <a href="#" class="wd-remove-decor ps-2">
+                                <i className="bi bi-search position-absolute"></i>
+                                </a>
+                            </div>
+                            <input class="wd-search-tuiter-input ps-5"
+                            placeholder="Search Tuiter"/>
+                        </div>
+                    </span>
+                    <div class="position-absolute top-50 end-0 translate-middle-y
+                        pe-1 pb-2">
+                        <a href="explore-settings.html">
+                            <i className="text-primary float-end bi
+                            bi-gear-fill fs-2 position-relative"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <ul className="nav nav-pills mb-2">
             <li className="nav-item">
-                <a className="nav-link active">For You</a>
+                <a className="nav-link active" href="#">For You</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link">Trending</a>
+                <a className="nav-link" href="#">Trending</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link">News</a>
+                <a className="nav-link" href="#">News</a>
+            </li>
+            <li className="nav-item">
+                <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li className="nav-item">
+                <a class="nav-link d-none d-md-inline-block"
+                    href="#">Entertainment</a>
             </li>
         </ul>
         <div className="position-relative mb-2">

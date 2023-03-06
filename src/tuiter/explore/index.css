@@ -31,3 +31,36 @@
 .wd-font-size-14 {
     font-size: 14px;
 }
+
+.wd-font-size-16 {
+    font-size: 16px;
+}
+
+.wd-post-summary-item-box {
+    height: 100px;
+}
+
+.wd-search-tuiter-pill {
+    background-color: white;
+    border: 1px #585757 solid;
+    border-radius: 50px;
+    height: 40px;
+    width: 90%;
+    display: block;
+}
+
+.wd-remove-decor {
+    color: black;
+    text-decoration: none;
+}
+
+.wd-search-tuiter-input {
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    height: 30px;
+    width: 90%;
+    border: unset;
+    outline: unset;
+}
