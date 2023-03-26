@@ -3,7 +3,7 @@ import React from "react";
 
 const NavigationSidebar = (
     {
-        active = 'explore'
+        active = 'home'
     }
 ) => {
     return (
@@ -12,11 +12,11 @@ const NavigationSidebar = (
                 <i class="bi bi-twitter"></i>
                 <span class="d-none d-xl-inline-block ps-1">Tuiter</span>
             </a>
-            <a className={`list-group-item ${active === 'home'?'active':''}`} href="#">
+            <a className={`list-group-item ${active === 'home'?'active':''}`} href="/tuiter/home">
                 <i class="bi bi-house-door-fill"></i>
                 <span class="d-none d-xl-inline-block ps-1">Home</span>
             </a>
-            <a className={`list-group-item ${active === 'explore'?'active':''}`} href="#">
+            <a className={`list-group-item ${active === 'explore'?'active':''}`} href="/tuiter/explore">
                 <i class="bi bi-hash"></i>
                 <span class="d-none d-xl-inline-block ps-1">Explore</span>
             </a>

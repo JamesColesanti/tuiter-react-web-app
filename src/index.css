@@ -11,3 +11,158 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wd-bookmarks-header {
+  border: 1px solid #383737;
+  height: 60px;
+  width: 600px;
+}
+
+.wd-bookmarks-text {
+  font-size: 20px;
+  position: relative;
+  left: 16px;
+  top: 12px;
+}
+
+.wd-handle {
+  font-size: 13px;
+  position: relative;
+  left: 16px;
+  top: 8px;
+}
+
+.wd-bookmarks-content {
+  border: 1px solid #383737;
+  height: 600px;
+  width: 600px;
+}
+
+.wd-author-container {
+  position: relative;
+  left: 16px;
+  top: 12px;
+  float: left;
+  padding-right: 12px;
+  width: 10%;
+}
+
+.wd-avatar-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+.wd-content-container {
+  float: left;
+  width: 504px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.wd-bookmarks-info {
+  position: relative;
+  padding-left: 24px;
+  bottom: 24px;
+}
+
+.wd-author-name {
+  color: white;
+  font-size: 15px;
+  top: 24px;
+  left: 24px;
+}
+
+.wd-handle-and-date {
+  font-size: 13px;
+}
+
+.wd-dots-icon-bookmarks {
+  width: 20px;
+  height: auto;
+  position: relative;
+  bottom: 6px;
+}
+
+.wd-bookmarks-p {
+  color: white;
+  font-size: 15px;
+  max-width: 506px;
+  margin-right: 16px;
+  margin-bottom: 12px;
+}
+
+.wd-three-dots-container {
+  float: right;
+}
+
+.wd-picture-container {
+  height: 360px;
+  width: 504px;
+  border: 1px solid #383737;
+  border-radius: 25px;
+}
+
+.wd-picture {
+  width: 504px;
+  height: 264px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.wd-content-under-pic {
+  margin: 12px;
+}
+
+.wd-under-pic-title {
+  font-size: 15px;
+}
+
+.wd-under-pic-content {
+  color: #6e767d;
+  font-size: 15px;
+}
+
+.wd-bottom-icons {
+  margin-top: 12px;
+}
+
+.wd-each-icon {
+  font-size: 12px;
+  float: left;
+  text-decoration: unset;
+}
+
+.wd-icon-pic {
+  width: 12px;
+  height: 12px;
+  margin-right: 12px;
+}
+
+.wd-link-pic {
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
+}
+
+.wd-bottom-icons-red {
+  color: red;
+  font-size: 12px;
+  float: left;
+  text-decoration: unset;
+}
+
+.wd-like-pic {
+  width: 12px;
+  height: 12px;
+  margin-right: 12px;
+}
+
+.wd-last-icon {
+  float: left;
+}
+
+.wd-link-container {
+  text-decoration: unset;
+  color: #6e767d;
+}
