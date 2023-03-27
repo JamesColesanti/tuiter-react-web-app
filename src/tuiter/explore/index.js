@@ -2,6 +2,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./index.css";
+import PostSummaryList from "../post-summary-list"
+
 const ExploreComponent = () => {
     return(
     <>
@@ -50,6 +52,12 @@ const ExploreComponent = () => {
                     href="#">Entertainment</a>
             </li>
         </ul>
+        <div className="position-relative mb-2">
+            <img src="/images/starship.jpg" className="w-100"/>
+            <h1 className="position-absolute wd-nudge-up text-white">
+            SpaceX Starship</h1>
+        </div>
+        <PostSummaryList/>
     </>
 );
 };

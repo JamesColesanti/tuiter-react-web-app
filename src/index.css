@@ -166,3 +166,7 @@ code {
   text-decoration: unset;
   color: #6e767d;
 }
+
+.wd-gray-text {
+  color: rgb(96, 94, 94);
+}

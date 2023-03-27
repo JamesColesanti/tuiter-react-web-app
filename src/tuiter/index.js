@@ -8,6 +8,7 @@ import {Provider} from "react-redux";
 import ExploreComponent from "./explore";
 import HomeComponent from "./home";
 import { Routes, Route } from "react-router";
+import PostSummaryList from "./post-summary-list";
 
 const store = configureStore({reducer: {
         who: whoReducer,
@@ -33,7 +34,11 @@ function Tuiter() {
                     </Routes>
                 </div>
                     <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-                        <WhoToFollowList/>
+                        <Routes>
+                            <Route index element={<PostSummaryList/>}/>
+                            <Route path="/home" element={<PostSummaryList/>}/>
+                            <Route path="/explore" element={<WhoToFollowList/>}/>
+                        </Routes>
                     </div>
                 </div>
             </div>

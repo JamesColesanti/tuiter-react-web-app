@@ -13,11 +13,11 @@ const TuitItem = ({ tuit }) => {
     return(
         <li className="list-group-item">
              <div className="row">
-                    <div class="col-2">
+                    <div class="col-1">
                         <img class="wd-avatar-image"
-                            src="../images/JamesColesantiProfilePicture.jpg"/>
+                            src={ tuit.image }/>
                     </div>
-                    <div class="col-10">
+                    <div class="col-11 ps-4">
                         <i className="bi bi-x-lg float-end"
                             onClick={() => deleteTuitHandler(tuit._id)}></i>
                         <span className="fw-bolder wd-font-size-16">

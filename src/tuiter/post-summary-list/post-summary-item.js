@@ -29,25 +29,6 @@ const PostSummaryItem = (
                 <div class="position-absolute top-50 end-0 translate-middle-y pe-3">
                     <img width={70} className="float-end rounded-3" src={`/images/${post.image}`}/>
                 </div>
-                <div class="wd-bottom-icons">
-                    <a href="#" class="wd-each-icon wd-gray-text">
-                        <img src="../images/comment.png"
-                            class="wd-icon-pic"/>220
-                            </a>
-                    <a href="#"
-                        class="wd-each-icon wd-gray-text">
-                        <img src="../images/retweet.png"
-                            class="wd-icon-pic"/>90</a>
-                    <a href="#"
-                        class="wd-bottom-icons-red">
-                        <img src="../images/like.png"
-                            class="wd-like-pic"/>370</a>
-                    <a href="#"
-                        class="wd-last-icon">
-                        <img src="../images/share.png"
-                            class="wd-icon-pic"/>
-                    </a>
-                 </div>
             </div>
         </li>
     );
