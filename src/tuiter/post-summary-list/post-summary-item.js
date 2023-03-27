@@ -1,3 +1,4 @@
+/* eslint-disable no-template-curly-in-string */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
@@ -14,23 +15,27 @@ const PostSummaryItem = (
     }
 ) => {
     return(
-        <li className="list-group-item">
-            <div className="row">
-                <div class="position-relative top-0 start-0">
-                    <div className="wd-font-size-16"> {post.userName} . {post.time}</div>
-                    <div className="fw-bolder wd-font-size-16">
-                        {post.topic}
-                        <span className="ps-1">
-                            <i class="bi bi-patch-check-fill"></i>
-                        </span>
-                    </div>
-                    <div className="pe-5 me-5 wd-font-size-16">{post.title}</div>
+        <a class="wd-tuit-basic-div list-group-item" href='#'>
+            <div class="position-relative top-0 start-0">
+                <div class="wd-gray-text wd-font-size-14">
+                {post.topic}
                 </div>
-                <div class="position-absolute top-50 end-0 translate-middle-y pe-3">
-                    <img width={70} className="float-end rounded-3" src={`/images/${post.image}`}/>
+                <div>
+                    <span class="wd-font-size-14 wd-bold-text">{post.userName}</span>
+                    <i class="fa fa-solid fa-check-circle"></i>
+                    <span class="wd-gray-text wd-font-size-14"> - {post.time}</span>
+                </div>
+                <div class="pe-5 me-5">
+                    <div class="wd-font-size-14 wd-bold-text">
+                        {post.title}
+                    </div>
                 </div>
             </div>
-        </li>
+            <div class="position-absolute top-50 end-0 translate-middle-y pe-3">
+                <img class="wd-basic-tuit-picture"  
+                src={post.image}/>
+            </div>
+        </a>
     );
 };
 export default PostSummaryItem;

@@ -1,11 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-const NavigationSidebar = (
-    {
-        active = 'home'
-    }
-) => {
+const NavigationSidebar = ({ active }) => {
     return (
         <div className="list-group">
             <a className="list-group-item" href="/">

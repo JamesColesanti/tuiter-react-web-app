@@ -170,3 +170,96 @@ code {
 .wd-gray-text {
   color: rgb(96, 94, 94);
 }
+
+.wd-bg-a5 {
+  background: #060606;
+}
+
+.wd-follow-container {
+  height: 50px;
+}
+
+.wd-follow-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.btn-primary.override-bs {
+  border-radius: 25px;
+  font-size: 16px;
+  color: white;
+  width: 80px;
+  height: 40px;
+}
+
+.wd-tuit-basic-div {
+  border: 1px solid #2c2a2a;
+  height: 120px;
+}
+
+.wd-gray-text {
+  color: #6e767d;
+}
+
+.wd-font-size-12 {
+  font-size: 12px;
+}
+
+.wd-font-size-14 {
+  font-size: 14px;
+}
+
+.wd-black-bold-text {
+  color: black;
+  font-weight: bold;
+}
+
+.wd-bold-text {
+  font-weight: bold;
+}
+
+.wd-basic-tuit-picture {
+  width: 90px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.wd-search-section {
+  height: 50px;
+}
+
+.wd-search-tuiter-pill {
+  background-color: white;
+  border: 1px #585757 solid;
+  border-radius: 50px;
+  height: 40px;
+  width: 90%;
+  display: block;
+}
+
+.wd-remove-decor {
+  color: black;
+  text-decoration: none;
+}
+
+.wd-search-tuiter-input {
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 16px;
+  height: 30px;
+  width: 90%;
+  border: unset;
+  outline: unset;
+}
+
+.wd-picture {
+  width: 100%;
+}
+
+.wd-image-text {
+  color: #2c2a2a;
+  font-weight: bold;
+  font-size: 40px;
+}
