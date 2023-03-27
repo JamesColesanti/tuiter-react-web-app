@@ -1,13 +1,13 @@
 import Labs from "./labs";
 import HelloWorld from "./labs/a6/hello-world";
 import Tuiter from "./tuiter";
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 import React from 'react';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container">
         <Routes>
           <Route path="/*"
@@ -18,7 +18,7 @@ function App() {
                 element={<Tuiter/>}/>
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;
