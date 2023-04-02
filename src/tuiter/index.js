@@ -8,7 +8,6 @@ import {Provider} from "react-redux";
 import ExploreComponent from "./explore";
 import HomeComponent from "./home";
 import { Routes, Route } from "react-router";
-import PostSummaryList from "./post-summary-list";
 
 const store = configureStore({reducer: {
         who: whoReducer,
