@@ -2,7 +2,6 @@ import React from "react";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list/index";
 import whoReducer from "./reducers/who-reducer";
-import postsReducer from "./post-summary-list/posts-reducer"
 import tuitsReducer from "./tuits/tuits-reducer";
 import {configureStore} from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
@@ -13,8 +12,7 @@ import PostSummaryList from "./post-summary-list";
 
 const store = configureStore({reducer: {
         who: whoReducer,
-        tuits: tuitsReducer,
-        posts: postsReducer
+        tuitsData: tuitsReducer
     }
 });
 
@@ -36,8 +34,8 @@ function Tuiter() {
                 </div>
                     <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
                         <Routes>
-                            <Route index element={<PostSummaryList/>}/>
-                            <Route path="/home" element={<PostSummaryList/>}/>
+                            {/* <Route index element={<PostSummaryList/>}/>
+                            <Route path="/home" element={<PostSummaryList/>}/> */}
                             <Route path="/explore" element={<WhoToFollowList/>}/>
                         </Routes>
                     </div>
