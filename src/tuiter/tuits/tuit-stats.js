@@ -13,15 +13,6 @@ import { updateTuitThunk } from "../../services/tuits-thunks";
 
 const TuitStats = ({ tuit }) => {
     const dispatch = useDispatch();
-    const likeDataHandler = (tuit) => {
-        tuit.likes = tuit.likes + 1;
-        console.log(tuit);
-        dispatch(updateTuitThunk({
-            ...tuit,
-            likes: tuit.likes + 1,
-            liked: true
-        }));
-    }
     return(
         <div class="row">
             <span class="wd-each-icon wd-gray-text col-2">
