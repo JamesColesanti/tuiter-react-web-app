@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import {createTuitThunk, deleteTuitThunk, findTuitsThunk} from "../../services/tuits-thunks";
+import {createTuitThunk, deleteTuitThunk, findTuitsThunk, updateTuitThunk} from "../../services/tuits-thunks";
 
 const initialState = {
     tuits: [],
@@ -34,6 +34,11 @@ const tuitsSlice = createSlice({
             (state, { payload }) => {
                 state.loading = false
                 state.tuits.push(payload)
+            },
+        [updateTuitThunk.fulfilled]:
+            (state, { payload }) => {
+                state.loading = false
+                state.tuits = payload
             },
     },
 });
